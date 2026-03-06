@@ -1,52 +1,36 @@
-# tanzania-bri-poverty-analysis
-This project analyzes poverty resilience along Tanzania's BRI corridors using open-source geospatial data. It includes GEE scripts for data pre-processing, Python scripts for spatial modeling and visualization, and a synthetic dataset for reproducibility. The focus is on infrastructure-climate interaction
-# Spatial Analysis of Climate Change and Poverty Dynamics in Tanzania
 
-This repository contains scripts, processed datasets, and documentation used to reproduce the spatial econometric analysis presented in the manuscript:
 
-"Climate Change and Poverty Dynamics in Tanzania: Geospatial Analysis of the Interaction Between Infrastructure, Climate Impact, and Regional Disparities"
+tanzania-bri-poverty-analysis
 
-## Repository Contents
+This repository provides scripts, processed datasets, and documentation used to reproduce the spatial econometric analysis conducted in a study examining climate variability, infrastructure access, and regional poverty dynamics in Tanzania.
 
-**Code/**
+Repository Contents
+
+Code
 Python scripts used for spatial econometric modeling including:
-- Spatial Autoregressive Model (SAR)
-- Geographically Weighted Regression (GWR)
-- Spatial Durbin Model (SDM)
+• Spatial Autoregressive Model (SAR)
+• Geographically Weighted Regression (GWR)
+• Spatial Durbin Model (SDM)
 
-**Data/**
-Processed datasets used for regression analysis:
-- poverty indicators
-- climate variables
-- infrastructure indicators
+Data
+Processed datasets used for regression analysis including:
+• poverty indicators
+• infrastructure variables
+• climatic indicators
+• spatial weights matrices
 
-**Supplementary Materials/**
-Additional methodological documentation describing:
-- satellite data processing
-- land cover classification
-- spatial modeling procedures
+Satellite Processing Scripts
+Google Earth Engine scripts used for:
+• Sentinel-2 preprocessing
+• NDVI computation
+• land cover classification
+• land cover change detection
 
-## Reproducibility
+Supplementary Materials
+Additional methodological documentation and supporting tables.
 
-The repository provides the computational workflow used in the study.  
-Scripts are written in Python using spatial econometric libraries including:
+Note
+Raw household survey data cannot be shared due to confidentiality agreements. Aggregated datasets and scripts necessary for reproducing the analysis are provided.
 
-- geopandas  
-- pysal  
-- mgwr  
-- numpy  
-- statsmodels  
-
-## Data Sources
-
-The study integrates datasets from:
-
-- National Bureau of Statistics (NBS), Tanzania
-- Tanzania Social Action Fund (TASAF)
-- Tanzania Meteorological Authority (TMA)
-- CHIRPS precipitation database
-- Sentinel-2 satellite imagery (ESA Copernicus)
-
-## Peer Review Access
-
-To preserve double-anonymous peer review, this repository has been anonymized and contains no identifying author information.
+License
+MIT License
